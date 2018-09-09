@@ -8,7 +8,7 @@ The Python word-frequency-analysis program works by taking in a string input and
 
 
 MATLAB**:
-The executable file uses a deep learning long short-term memory (LSTM) network, a type of neural network to categorize journal entries into either a positive or negative mood. The MatlabMoodDetectionTraining was used to train a dataset of over 20,000 tweets categorized as either negative or positive. After training with 90% of the dataset we crossvalidated with the remaining 10%, chosen randomly. The accuracy of the binary classifier came out to 73.4%.
+The executable file uses a deep learning long short-term memory (LSTM) network, a type of neural network to categorize journal entries into either a positive or negative mood. Using word embeddings the classifier can capture semantic details including long-term word dependencies and similar words even if they don't look similar.. The MatlabMoodDetectionTraining was used to train a dataset of over 20,000 tweets categorized as either negative or positive. After training with 90% of the dataset we crossvalidated with the remaining 10%, chosen randomly. The accuracy of the binary classifier came out to 73.4%.
 
 
 **The executable file can be found separately in a Google Drive link and the associated files (doc2sequence.m, leftPad.m, TrainedMoodNet.mat, and wordembedding.mat) can be found here in the gitrepo. The associated files must be saved in the same folder as the executable in order to work.
